@@ -1,14 +1,11 @@
-# IMDB Genre Classification :movie_camera:
+# :movie_camera: IMDB Genre Classification
 
-<div style="display: flex; align-items: center;" >
-<div style="margin-right: 10px;">
-<img alt="GitHub Pipenv locked Python version" src="https://img.shields.io/github/pipenv/locked/python-version/iboraham/imdb-genre-classification?style=for-the-badge&logo=appveyor">
+<div align="center">
+
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/iboraham/imdb-genre-classification?style=for-the-badge&logo=appveyor) ![GitHub](https://img.shields.io/github/license/iboraham/imdb-genre-classification?style=for-the-badge&logo=appveyor)
+
 </div>
 
-<div style="margin-right: 10px;">
-<img alt="GitHub" src="https://img.shields.io/github/license/iboraham/imdb-genre-classification?style=for-the-badge&logo=appveyor">
-</div>
-</div>
 <br>
 
 This is a project to classify movie genres based on the IMDB dataset. The dataset is available at [Kaggle](https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb) by [@radmirkaz](https://www.kaggle.com/hijest).
@@ -39,7 +36,7 @@ Try [IPython](./docs/kaggle_train.ipynb) file for the training and evaluation.
 
 The model is trained using [Kaggle](https://www.kaggle.com/) notebooks with 1x Tesla P100-PCIE-16GB GPU. The training and evaluation is done using [Weights & Biases](https://wandb.ai/) to track the training and evaluation. The training and evaluation charts are available below.
 
-![Loss](./docs/loss.svg)
+![Loss](./docs/loss.png)
 
 Global step: 20k has the lowest eval_loss while training loss is still decreasing. The model is saved at this step.
 
